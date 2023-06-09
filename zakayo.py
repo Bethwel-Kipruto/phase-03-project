@@ -133,7 +133,7 @@ class TaxesPaid(Base):
 
 def calculate_tax(total_income):
     # Perform tax calculation based on income
-    paye = total_income * 0.3
+    paye = total_income * 0.4
     housing_levy = total_income * 0.02
     road_levy = total_income * 0.01
     service_fee = total_income * 0.015
