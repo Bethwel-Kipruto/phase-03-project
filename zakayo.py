@@ -335,7 +335,7 @@ def administrator_menu():
             if taxes_paid:
                 for tax_paid in taxes_paid:
                     print(f'Total Tax Paid: {tax_paid.total_tax_paid}')
-            print('--')
+            print('---')
 
 
     elif option == '5':
